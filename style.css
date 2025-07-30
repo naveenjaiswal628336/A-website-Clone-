@@ -1,0 +1,56 @@
+*{
+    padding:0px;
+    margin: 10px;
+}
+#container
+{
+    background-color: black;
+    width: 1000px;
+    height:500px;
+    margin-left: 10%;
+}
+.button
+{
+    background-color: orangered;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    color: aliceblue
+    ;
+}
+.button:hover{
+    color:orangered;
+    background-color: black;
+}
+.submit{
+    margin-left: 40%;
+    display: flexbox;
+    align-items: center;
+    align-content: center;
+ background-color: orangered;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-style:oblique;   
+}
+a:hover{
+    color:orangered;
+    background-color:black;
+}
+.leading-relaxed{
+    color: blue;
+    font-size: large;
+    
+}
+.leading-relaxed:hover{
+    color:tomato;
+}
+pre{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+hr{
+    border-style: dashed;
+}
